@@ -53,19 +53,19 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/cahayatambunan/supermarket-campaign-analysis.git
+   git clone https://github.com/cahayatambunan/Supermarket_Campaign_Analysis.git
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd supermarket-campaign-analysis
+   cd Supermarket_Campaign_Analysis
    ```
 
 3. Run the Jupyter notebook or Python script that contains the analysis:
 
    ```bash
-   jupyter notebook supermarket_analysis.ipynb
+   jupyter notebook Supermarket_Campaign_Analysis.ipynb
    ```
 
 
