@@ -8,6 +8,7 @@ This project provides an in-depth analysis of supermarket customer behavior and 
 
 - [Project Overview](#overview)
 - [Objective](#objective)
+- [Installation](#installation)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
   - [Data Cleaning](#data-cleaning)
@@ -19,8 +20,7 @@ This project provides an in-depth analysis of supermarket customer behavior and 
 - [Visualizations](#visualizations)
 - [Conclusion](#conclusion)
 - [Future Improvements](#future-improvements)
-- [Requirements](#requirements)
-- [How to Run](#how-to-run)
+- [Contributing](#contributing)
 
 ## Objective
 
@@ -29,6 +29,45 @@ The main objective of this project is to leverage RFM segmentation to:
 - Analyze customer behavior.
 - Evaluate marketing campaign performance.
 - Optimize future campaigns based on customer segmentation and preferences.
+
+## Installation
+
+To run this project, you’ll need the following Python libraries:
+
+```bash
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+```
+
+You can install them using `pip`:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/cahayatambunan/supermarket-campaign-analysis.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd supermarket-campaign-analysis
+   ```
+
+3. Run the Jupyter notebook or Python script that contains the analysis:
+
+   ```bash
+   jupyter notebook supermarket_analysis.ipynb
+   ```
+
 
 ## Dataset
 
@@ -78,17 +117,17 @@ Here are some visualizations from the analysis:
 ### 1. RFM Segmentation Plot
 This plot visualizes customer segments based on their RFM scores.
 
-![RFM Segmentation](link_to_your_image_1.png)
+![RFM Segmentation](plot_segment.png)
 
 ### 2. Campaign Response Rates
 The following chart shows how different customer segments responded to various campaigns (e.g., discounts, personalized offers).
 
-![Campaign Response Rates](link_to_your_image_2.png)
+![Campaign Response Rates](response_rate.png)
 
 ### 3. Product Preferences by Customer Segment
 This bar chart illustrates which product categories were most popular among different customer segments.
 
-![Product Preferences](link_to_your_image_3.png)
+![Product Preferences](product_preference.png)
 
 ## Conclusion
 
@@ -100,50 +139,6 @@ This project shows that **RFM segmentation** is an effective tool for analyzing 
 - Integrate additional demographic data to further refine customer segmentation.
 - Explore A/B testing to evaluate the effectiveness of different marketing strategies on various customer segments.
 
-## Requirements
+## Contributing
 
-To run this project, you’ll need the following Python libraries:
-
-```bash
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-```
-
-You can install them using `pip`:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-## How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/cahayatambunan/supermarket-campaign-analysis.git
-   ```
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd supermarket-campaign-analysis
-   ```
-
-3. Run the Jupyter notebook or Python script that contains the analysis:
-
-   ```bash
-   jupyter notebook supermarket_analysis.ipynb
-   ```
-
----
-
-### How to Add Visualizations
-
-- You can create visualizations using libraries such as `matplotlib` or `seaborn`.
-- Save your generated plots as `.png` or `.jpg` files.
-- Upload these files to your GitHub repository and update the image links accordingly in the README.
-
-If you'd like assistance with creating these visualizations, I can guide you through the process of generating them.
+Contributions are welcome! If you would like to contribute to the project, feel free to fork the repository and create a pull request with your changes. Be sure to follow the style and format of the existing code.
